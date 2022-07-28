@@ -60,7 +60,7 @@ header{
 }
 
 .header__background__wrapper{
-    background-image: url("../img/veinteycuatro-team2.jpg"); 
+    background-image: url("../img/veinteycuatro-team.webp"); 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -418,22 +418,22 @@ nav{
 /* Backgorund Images */
    
 .slide:first-child {
-    background: url("../img/edificios/edificio1.jpg") no-repeat center top/cover;
+    background: url("../img/edificios/edificio1.webp") no-repeat center top/cover;
 }
 .slide:nth-child(2) {
-    background: url("../img/edificios/edificio2.jpg") no-repeat center top/cover;
+    background: url("../img/edificios/edificio2.webp") no-repeat center top/cover;
 }
 .slide:nth-child(3) {
-    background: url("../img/edificios/edificio3.jpg") no-repeat center top/cover;
+    background: url("../img/edificios/edificio3.webp") no-repeat center top/cover;
 }
 .slide:nth-child(4) {
-    background: url("../img/edificios/edificio4.jpg") no-repeat center top/cover;
+    background: url("../img/edificios/edificio4.webp") no-repeat center top/cover;
 }
 .slide:nth-child(5) {
-    background: url("../img/edificios/edificio5.jpg") no-repeat center top/cover;
+    background: url("../img/edificios/edificio5.webp") no-repeat center top/cover;
 } 
 .slide:nth-child(6)  {
-    background: url("../img/edificios/edificio6.jpg") no-repeat center top/cover;
+    background: url("../img/edificios/edificio6.webp") no-repeat center top/cover;
 }
 
 /************************************************************************/
