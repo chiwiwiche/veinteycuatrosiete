@@ -504,7 +504,6 @@ footer{
     linear-gradient(225deg, var(--main-honey-yellow) 21px, rgba(225, 155, 5, 0.3) 22px, rgba(225, 155, 5, 0.3) 24px, transparent 24px, transparent 67px, rgba(225, 155, 5, 0.3) 67px, rgba(225, 155, 5, 0.3) 69px, transparent 69px)0 64px;
     background-color:var(--main-honey-yellow);
     background-size: 64px 128px;
-
 }
 .footer__wrapper{
     display: flex;
@@ -516,16 +515,13 @@ footer{
     text-align: center;
 }
 .page__tittle__one{
-    /* background: red; */
     margin-bottom: 50px;
     padding: 0;
 }
 .page__tittle__two{
-    /* background: red; */
     margin-bottom: 50px;
     padding: 0;
 }
-
 .contact__form__wrapper{
     width: 50%;
     
@@ -587,7 +583,6 @@ footer{
     flex-direction: column;
     justify-content: center;
     width: 50%;
-    
 }
 .contact__info__text{
     font-size: var(--fs-sub-tittles);
@@ -598,8 +593,6 @@ footer{
     margin-top: 25px;
     padding: 1rem;
 }
-
-
 .contact__info__text a i:hover, .contact__info__text a:hover{
     color: var(--main-white);
 }
@@ -618,7 +611,6 @@ footer{
 .contact__info__social a:nth-child(1) i:hover, .contact__info__social a:hover:nth-child(1){
     color: var(--main-white);
 }
-
 .contact__info__social a:nth-child(2) i:hover, .contact__info__social a:hover:nth-child(2){
     color: #d62976;
 }
@@ -800,49 +792,49 @@ footer{
 
 
 /******************************WEARE*********************************/
-.weare__wrapper{
-    margin-bottom: 100px;
-    margin-top: 100px;
-}
-.weare__subcontainer{
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 100px;
-}
-.weare__info{
-    margin-top: 30px;
-}
-.vertical__img__weare{
-    width: 60%;
-}
-.vertical__text__weare{
-    order: 2;
-    width: 100%;
-}
-.vertical__container__weare .weare__info{
-    padding-right: 0px;
-    text-align: left;
-}
+    .weare__wrapper{
+        margin-bottom: 100px;
+        margin-top: 100px;
+    }
+    .weare__subcontainer{
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 100px;
+    }
+    .weare__info{
+        margin-top: 30px;
+    }
+    .vertical__img__weare{
+        width: 60%;
+    }
+    .vertical__text__weare{
+        order: 2;
+        width: 100%;
+    }
+    .vertical__container__weare .weare__info{
+        padding-right: 0px;
+        text-align: left;
+    }
 /********************************************************************/
 
 
 /******************************FOOTER********************************/
 
-.footer__wrapper{
-    display: flex;
-    flex-direction: column;
+    .footer__wrapper{
+        display: flex;
+        flex-direction: column;
 
-}
-.contact__form__wrapper{
-    background: #e6e6e6;
-    width: 100%;
-}
+    }
+    .contact__form__wrapper{
+        background: #e6e6e6;
+        width: 100%;
+    }
 
-.contact__info__wrapper{
-    /* background: rebeccapurple; */
-    width: 100%;
-}
+    .contact__info__wrapper{
+        /* background: rebeccapurple; */
+        width: 100%;
+    }
 
 /********************************************************************/
 
@@ -896,29 +888,27 @@ footer{
 
 
 /********************************WEARE********************************/
-.weare__wrapper{
-    margin:100px 25px;
-}
+    .weare__wrapper{
+        margin:100px 25px;
+    }
 
-.weare__subcontainer{
-    width: auto;
-}
-.vertical__img__weare{
-    width: 70%;
-}
+    .weare__subcontainer{
+        width: auto;
+    }
+    .vertical__img__weare{
+        width: 70%;
+    }
 /************************************************************************/
 
 
 /********************************FOOTER**********************************/
 
-.copy__right-wrapper{
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    
-   }
+    .copy__right-wrapper{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 /************************************************************************/
 
 }
@@ -928,10 +918,10 @@ footer{
 
 
 /********************************HEADER***********************************/
-.header__background__text{
-    padding: 0 10px;
-    
-}
+    .header__background__text{
+        padding: 0 10px;
+        
+    }
 /*************************************************************************/
   
 /**********************************NAV***********************************/
@@ -946,7 +936,6 @@ footer{
     .logo__image{
         height: 8vh;
     }
-
     .company__name{
         font-size: 1.2rem;
     }
@@ -989,25 +978,25 @@ footer{
 /***********************************************************************/
 
 /********************************WEARE********************************/
-.weare__wrapper{
-    margin:100px 10px;
-}
-.weare__info__tittle{
-    font-size: 1.4rem;
-}
+    .weare__wrapper{
+        margin:100px 10px;
+    }
+    .weare__info__tittle{
+        font-size: 1.4rem;
+    }
 /************************************************************************/
 
 /*********************************FOOTER*********************************/
-.contact__info__text{
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.contact__form{
-    padding: 0 10px;
-    width: 100%;
-}
+    .contact__info__text{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contact__form{
+        padding: 0 10px;
+        width: 100%;
+    }
 /************************************************************************/
 
 }
