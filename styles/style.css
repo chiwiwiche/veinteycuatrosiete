@@ -181,8 +181,7 @@ nav{
     linear-gradient(225deg, var(--main-honey-yellow) 21px, rgba(225, 71, 5, 0.3) 22px, rgba(225, 71, 5, 0.3) 24px, transparent 24px, transparent 67px, rgba(225, 71, 5, 0.3) 67px, rgba(225, 71, 5, 0.3) 69px, transparent 69px)0 64px;
     background-color:var(--main-honey-yellow);
     background-size: 64px 128px; */
-    /* background: var(--main-light-grey); */
-    background: red;
+    background: var(--main-light-grey);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows:repeat(4, auto);
