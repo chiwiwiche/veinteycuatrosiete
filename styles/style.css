@@ -80,17 +80,16 @@ body {
 header{
     width: 100%;
 }
-
 /************************************************************************/
 .whatsapp__float{
 	background-color:#25d366;
 	border-radius:30px;
-	bottom: 1.5rem;
+	bottom: 1rem;
 	box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.4);
     font-size:20px;
 	height:56px;
 	position:fixed;
-	right: 1.5rem;
+	right: 1rem;
 	text-align:center;
 	width:56px;
     z-index:100;
@@ -108,8 +107,6 @@ nav{
     -webkit-backdrop-filter: blur(5px);
     background: rgba(255, 255, 255, 0.2);
     border: 1px solid rgba(255, 255, 255, 0.3);
-    /* box-shadow: 0px 15px 10px -15px var(--main-text-color); */
-    /* border:1px solid red; */
     display: flex;
     justify-content: space-evenly;
     left: 50%;
@@ -175,7 +172,6 @@ nav{
 }
 
 /************************************************************************/
-
 
 
 /********************************ABOUT***********************************/
@@ -269,7 +265,6 @@ nav{
 .about__right__sub-container__tittle{
     transition:1s;
 }
-
 .about__right__sub-container__tittle:hover{
     color:var(--main-honey-yellow);
 }
@@ -286,7 +281,6 @@ nav{
 .services__wrapper{
     margin:6rem 0;
     padding: 0 6rem;    
-
 }
 .page__tittles{
     font-size: var(--fs-xs);
@@ -321,12 +315,10 @@ nav{
 .services__subcontainer:nth-child(7){
     margin-bottom: 0px;
 }
-
 .services__subcontainer:hover .services__info__tittle h2{
     color: var(--main-honey-yellow);
     transition: 0.3s linear;
 }
-
 .services__img__container{
     max-height: 90vh;
     overflow: hidden;
@@ -401,7 +393,6 @@ nav{
     position: relative;
     width: 100%;
 }
-
 .slide {
     height: 100%;
     left: 0;
@@ -411,7 +402,6 @@ nav{
     transition: opacity 0.4s ease-in-out;
     width: 100%;
 }
-
 .slide.current {
     opacity: 1;
 }
@@ -542,7 +532,6 @@ nav{
     transition: 0.3s linear;
 }
 
-
 /************************************************************************/
 
 
@@ -555,10 +544,8 @@ footer{
     display: flex;
     flex-direction: row;
 }
-
 .contact__form__wrapper{
     width: 50%;
-    
 }
 .contact__form{
     display: flex;
@@ -619,7 +606,6 @@ footer{
     width: 50%;
 }
 .contact__info__text{
-    
     font-size: var(--fs-sub-tittles);
     margin: 0 auto;
     width: fit-content;
@@ -643,7 +629,6 @@ footer{
     margin-top: 3rem;
     text-align: center;
     width: 100%;
-
 }
 .contact__info__social a{
     color:var(--main-white);
@@ -666,7 +651,6 @@ footer{
     justify-content: center;
     padding: 20px 10px 10px 10px;
     text-align: center;
- 
 }
 .copy__right{
     color:var(--main-white);
@@ -835,7 +819,6 @@ footer{
 
 
 /******************************WEARE*********************************/
-
     .weare__subcontainer{
         align-items: center;
         flex-direction: column;
@@ -865,7 +848,6 @@ footer{
 
 
 /******************************FOOTER********************************/
-
     .footer__wrapper{
         display: flex;
         flex-direction: column;
@@ -879,7 +861,6 @@ footer{
     .contact__info__wrapper{
         width: 100%;
     }
-
 /********************************************************************/
 
 }
@@ -889,9 +870,9 @@ footer{
 
     
 /***********************************NAV**********************************/
-nav{
-    padding: 0 3rem;
-}
+    nav{
+        padding: 0 3rem;
+    }
 /************************************************************************/
 
 /*********************************ABOUT**********************************/
@@ -930,7 +911,6 @@ nav{
 
 
 /********************************FOOTER**********************************/
-
     .copy__right-wrapper{
         align-items: center;
         display: flex;
@@ -947,13 +927,7 @@ nav{
 
 @media only screen and (max-width: 480px) {
 
-
-/********************************HEADER***********************************/
-
-/*************************************************************************/
-  
 /**********************************NAV***********************************/
-
     nav{
         padding: 0 1rem;
     }
