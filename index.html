@@ -32,14 +32,10 @@
       
 
       <header>
-        <div class="header__background__wrapper">
-
-          <div class="header__background__slogan">
-            <p class="header__background__text">Trabajamos por y para tu tranquilidad</p>
-            <a href="#contactanos" class="header__background__buttom">Contactanos</a>
-          </div>
-        
-        </div>
+        <a href="https://api.whatsapp.com/send?phone=50254322700&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20" class="whatsapp__float" target="_blank">
+          <i class="fa-brands fa-whatsapp fa-2x"></i>
+        </a>
+  
 
         <nav id="navbar">
 
@@ -67,9 +63,9 @@
       </header>
 
       <div class="about__wrapper" id="somos">
-        <p class="about__welcome">Bienvenidos a:</p>
         <img src="img/veintelogo.png" alt="VeinteyCuatro7 Logo" class="about__logo__image">
         <h2 class="about__tittle">VeinteyCuatro7</h2>
+        <p class="about__slogan">Trabajamos por y para tu tranquilidad</p>
         
         <div class="about__left__container">
 
@@ -133,7 +129,7 @@
       
       <div class="services__wrapper" id="servicios">
 
-        <h2 class="page__tittles page__tittle__one">Nuestros Servicios</h2>
+        <h2 class="page__tittles page__tittle__one">Nuestros Servicios:</h2>
 
         <div class="services__subcontainer vertical__container">
 
@@ -355,7 +351,7 @@
 
 
       <footer id="contactanos">
-        <h2 class="page__tittles page__tittle__three">CONTACTANOS</h2>
+        <h2 class="page__tittles page__tittle__three">Contactanos</h2>
         <div class="footer__wrapper">
 
           <div class="contact__form__wrapper">
@@ -381,7 +377,7 @@
               <a href="mailto:info@veinteycuatro7.com">info@veinteycuatro7.com</a>
               <br> 
               <a href="tel:+50254322700"><i class="fa-solid fa-phone fa-2x"></i></a>
-              <a href="tel:+50254322700">(502)5432-2700</a>
+              <a href="tel:+50254322700">(502) 5432-2700</a>
             </div>
 
             <div class="contact__info__social">
@@ -415,16 +411,20 @@
     <script>
       // When the user scrolls down 32px from the top of the document.
       window.onscroll = function() {scrollFunction()};
-      
+
       function scrollFunction() {
         if (document.body.scrollTop > 32 || document.documentElement.scrollTop > 32) {
           document.getElementById("navbar").style.top = "0";
           document.getElementById("navbar").style.width = "100%";
+          document.getElementById("navbar").style.boxShadow = "0px 15px 10px -15px #141414";
+          // window.matchMedia("(max-width: 768px)" + "navbar").style.top = "200px";
         } else {
           document.getElementById("navbar").style.top = "";
           document.getElementById("navbar").style.width = "";
+          document.getElementById("navbar").style.boxShadow = "";
         }
       }
+
       </script>
   </body>
 </html>
